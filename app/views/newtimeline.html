@@ -1,0 +1,13 @@
+<fa-app style="width: 320px; height: 568px; margin: 0;">
+
+  <fa-surface fa-size="[undefined, undefined]" class="background-dark">
+  </fa-surface>
+
+  <fa-modifier fa-transform="testTransform" fa-translate="tlFn(t.get())" fa-origin="[0.5, 0.5]">
+    <fa-modifier  fa-rotate-z="rotation(t.get())">
+      <fa-surface class="center-square" fa-size="[100, 100]" 
+                  fa-click="move()"></fa-surface>
+    </fa-modifier>
+  </fa-modifier>
+
+</fa-app>

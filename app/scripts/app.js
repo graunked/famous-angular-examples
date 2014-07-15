@@ -17,6 +17,11 @@ angular.module('integrationApp',['famous.angular', 'ui.router'])
         templateUrl: "views/animations.html",
         controller: "AnimationsCtrl"
       })
+      .state("new-timeline", {
+        url: "/new-timeline",
+        templateUrl: "views/newtimeline.html",
+        controller: "NewTimelineCtrl"
+      })
       .state("transitionables", {
         url: "/transitionables",
         templateUrl: "views/transitionables.html",
